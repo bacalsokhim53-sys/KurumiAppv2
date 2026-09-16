@@ -15,7 +15,7 @@ import {
 
 import { useAuth } from "../../context/AuthContext";
 
-const API_URL = "http://192.168.1.104:3000";
+const API_URL = "http://192.168.1.124:3000";
 
 export default function Login() {
   const { setIsLogin } = useAuth();

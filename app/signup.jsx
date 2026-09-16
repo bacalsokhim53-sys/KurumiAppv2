@@ -13,7 +13,7 @@ import {
   View,
 } from "react-native";
 
-const API_URL = "http://192.168.1.104:3000";
+const API_URL = "http://192.168.1.124:3000";
 
 export default function Signup() {
   const [username, setUsername] = useState("");
