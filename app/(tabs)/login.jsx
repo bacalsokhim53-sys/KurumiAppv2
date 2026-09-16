@@ -15,7 +15,7 @@ import {
 
 import { useAuth } from "../../context/AuthContext";
 
-const API_URL = "http://192.168.1.124:3000";
+const API_URL = "https://kurumiappv2.onrender.com";
 
 export default function Login() {
   const { setIsLogin } = useAuth();

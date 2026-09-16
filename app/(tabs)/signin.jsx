@@ -1,21 +1,21 @@
 import { router } from "expo-router";
 import { useState } from "react";
 import {
-  ActivityIndicator,
-  Alert,
-  KeyboardAvoidingView,
-  Platform,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
+    ActivityIndicator,
+    Alert,
+    KeyboardAvoidingView,
+    Platform,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    View,
 } from "react-native";
 
 import { useAuth } from "../../context/AuthContext";
 
 // YOUR CURRENT BACKEND IP
-const API_URL = "http://192.168.1.124:3000";
+const API_URL = "https://kurumiappv2.onrender.com";
 
 export default function SignIn() {
   const { setIsLogin } = useAuth();
